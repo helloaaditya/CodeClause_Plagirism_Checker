@@ -1,0 +1,11 @@
+# This script calculates the perimeter of a square
+
+def square_perimeter(side):
+    perimeter = 4 * side
+    return perimeter
+
+# main code
+if __name__ == "__main__":
+    s = int(input("Enter the length of the side of the square: "))
+    perimeter = square_perimeter(s)
+    print("The perimeter of the square is: ", perimeter)

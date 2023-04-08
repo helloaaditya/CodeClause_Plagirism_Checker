@@ -1,0 +1,11 @@
+# This script calculates the area of a square
+
+def square_area(side):
+    area = side ** 2
+    return area
+
+# main code
+if __name__ == "__main__":
+    s = int(input("Enter the length of the side of the square: "))
+    area = square_area(s)
+    print("The area of the square is: ", area)
